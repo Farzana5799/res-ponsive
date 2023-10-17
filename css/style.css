@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+  padding: 0;
+  }
+
+  body.full-body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .banner-section {
+    padding: 30px 0; /* Adjust as needed */
+    color: #fff;
+  }
+  body{
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  a, a:hover{
+  
+    text-decoration: none;
+  }
+  .navbar{
+       background-color: black;
+  
+  }
+  .nav-link{
+        color: #bebebe !important;
+         margin-left: 18px;
+  
+  }
+  /***************************
+   banner cord start
+   ******************/
+  
+  .banner-section{
+        width: 100%;
+        background-position:center ;
+        background: url(../img/banner-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 95vh;
+  
+  }
+  .banner-section .container h1{
+                font-size: 60px;
+                 font-weight: 700;
+                  text-transform: uppercase;
+                   color: white;
+                   margin-top:70px ;
+  }
+  .banner-section .container h1 span{
+  
+    color: #f18537;
+    font-weight: 300;
+  }
+  
+  .banner-section .container h2{
+    font-size:36px ;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    padding-right: 120px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .banner-section .container .line{
+               height:3px ;
+               width: 80px;
+              background:white ;
+               margin:33px 0px ;
+  }
+  .banner-section .container p{
+    font-size:16px ;
+    margin-left: 0px;
+    color: white;
+    font-weight: 400;
+     padding-right:109px; 
+    font-family: 'Raleway', sans-serif;
+  }
+  .banner-section .btn-primary{
+          border-radius: 0px;
+          border: 2px solid white;
+         padding: 18px 50px;
+        background: transparent;
+        margin-top: 25px;
+       margin-left: 10px;
+  }
+  .banner-section .btn-primary:hover{
+        background: #f18537;
+        border-color: #f18537; 
+        /* background: transparent !important; */
+  }
+
+
+  .main-form{
+    height: 90vh;     
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.main-form .card .form-group{
+  margin-bottom: 22px;
+  margin-top: 22px;
+  padding: 0px 20px;
+
+}
+.main-form .card .form-group .form-control{
+                                    
+                                 border: none;
+                                outline: 0;
+                                border-radius: 0;
+                                border-bottom: 1px solid #e9c2c2;
+                               
+
+}
+.first{
+
+   margin-top: 0px !important ;
+
+}
+.card-body{
+
+margin-top: 0px;
+padding-top: 0px;
+
+
+}
+.main-form  .card-header h3{
+  text-transform: capitalize;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0;
+}
+
+.card-header h3 span{
+ 
+   color: #f18537;
+ 
+}
+.card-footer{
+            background-color: #f18537 !important;
+
+
+}
+
+.get-btn{
+       background: transparent;
+        border: none;
+         color: white;
+        /* padding: 12px 30px; */
+
+}
+/* ********************************** */
+
+.media-section{
+  width:100% ;
+  height:20vh;
+  /* background: #cccccc; */
+  /* border: 1px solid #a2a3a6; */
+}
+
+
+ .media-section .contant h3{
+    padding: 8px 0px 0px;
+    text-transform: capitalize;
+     font-size: 20px;
+      color:black;
+     font-weight: 500;
+              
+  }
+.media-section .contant p{
+  padding: 0px 0px 0px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  }
+.media-section .post-left .icon {
+  font-size: 50px;
+   color: #bebebe;
+   padding: 10px;
+  }
+.media-section .post-left .icon i{
+    padding: 10px;
+    }
+    /* **************************** */
+
+    /* tab part start */
+
+.tab-part{
+  width: 100%;
+background:#f5f5f5;
+}
+.tab-part .container{
+  height:90vh ;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.tab-part .container .d-flex{
+
+}
+.tab-part .nav-link {
+  width: 110px;
+  height: 110px;
+  background: #333333;
+  color: #fff;
+  margin-bottom: 2px;
+
+}
+.tab-part .container .d-flex .nav-link .tab-pane{
+      margin-left: 90px;
+}
+.tab-part h3{
+          margin-left:50px;
+         padding: 22px;
+
+}
+.tab-part p{
+ margin-top: 30px;
+ margin-left: 60px;
+color: #8d8e92;
+}
+.tab-part .btn{
+margin-left: 60px;
+background: #f18537;
+border: 2px solid #f18537;
+color: #fff;
+padding: 12px 30px;
+}
+
+.tab-part .btn:hover{
+  background: #f18537;
+  border-color: #f18537; 
+}
+
+
+/****************** tab part end ***********************/
+
+
+/********************** list section start   *******************/
+.sub-section{
+  width: 100%;
+  padding-top: 110px;
+  padding-bottom: 120px;
+
+}
+.sub-section .right{
+  width: 470px;
+  margin: auto;
+}
+.sub-section .right .title {
+  width: 470px;
+  margin: auto;
+
+}
+.sub-section .right .title h4{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+
+}
+.sub-section .right .title .line{
+  width: 66px;
+  height: 2px;
+  background: #ff8b38;
+  margin: 30px 0px;
+}
+.sub-section .right .title p{
+  font-size: 14px;
+}
+.sub-section .right .bottom .icon{
+  width: 64px;
+}
+.sub-section .right .bottom .icon .icon-inner{
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.sub-section .right .bottom .icon .icon-inner i{
+  font-size: 26px;
+  border: 2px solid #ff8b38;
+  background: transparent;
+  color: #ff8b38;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 56px;
+  margin-bottom: 50px;
+
+}
+.sub-section .right .bottom .title{
+  margin-top: 46px;
+}
+.sub-section .right .bottom .title h5{
+  font-size: 14px;
+  font-weight: 700;
+}
+.sub-section .right .bottom .title p{
+  font-size: 14px;
+
+}
+/****************  sub list css code end **********************/
+
+
+/******************  standard list start ***************/
+.standard-section {
+  width: 100%;
+  background: #f5f5f5;
+  padding-top: 120px;
+  padding-bottom: 70px;
+
+
+}
+.standard-section .left{
+  width: 490px;
+
+}
+
+.standard-section .left .title h4{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+
+
+
+
+}
+.standard-section .left .title .line{
+  width: 66px;
+  height: 2px;
+  background: #ff8b38;
+  margin: 30px 0px;
+
+
+
+
+
+}
+.standard-section .left .title p{
+  margin-top: 30px;
+  font-size: 14px;
+
+
+
+
+
+}
+/********************  standard list  end *********************/
+
+
+
+/**********************  Awesome css code start **********************/
+.group-section{
+  width: 100%;
+  padding: 100px 0px;
+  text-align: center;
+
+}
+.group-section .title{
+  text-align: center;
+}
+.group-section .title h4{
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+}
+.group-section .title .line{
+  width: 66px;
+  height: 2px;
+  background: #ff8b38;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.groupe-section .title p{
+  font-size: 14px;
+
+}
+.group-section .icon-box{
+  width: 100%;
+  display: flex;
+
+}
+.group-section .icon-box .icon-box-inner{
+  display: flex;
+
+}
+
+.group-section .icon-box .icon-box-inner .icon i{
+  font-size: 26px;
+  border: 2px solid #ff8b38;
+  background: transparent;
+  color: #ff8b38;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 56px;
+  margin: 80px 0px 20px;
+}
+
+.group-section .icon-box .icon-box-inner .list h4{
+  margin-top: 15px;
+  padding: 0px 30px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.group-section .icon-box .icon-box-inner .list p{
+  padding: 21px 30px 40px;
+  font-size: 14px;
+  
+}
+
+/*********************** list section end    ************************/
+
+/* prizing section start */
+
+.prizing-secton{
+ width: 100%;
+ padding: 110px 0px 130px;
+background: #f5f5f5;
+
+}
+.prizing-secton .containe{
+ 
+}
+.prizing-secton .title{
+  text-align: center;
+    padding-bottom: 86px;
+}
+.prizing-secton .title h2{
+text-align: center;
+font-size :36px; 
+color: #212121;
+font-weight: 400;
+font-family:'Raleway', sans-serif; 
+}
+
+.prizing-secton  .title .line{
+  width: 66px;
+  height: 2px;
+  background: #ff8b38;
+ 
+ margin: 20px auto;
+}
+
+.prizing-secton .title p{
+  font-family:'Raleway', sans-serif; 
+font-size: 16px;
+color: #a2a3a6;
+font-weight: 400;
+text-align: center;
+}
+.prizing-secton  .price-table{
+  background: #fff;
+}
+.prizing-secton .price-table .p-header{
+padding: 20px;
+margin: 0;
+background: #333333;
+text-align: center;
+border-bottom: 2px solid white;
+}
+.prizing-secton .price-table .p-header h4{
+  color: white;
+ font-size: 16px;
+ 
+}
+
+.prizing-secton .p-body{
+  padding: 22px;
+  background: #333333;
+  text-align: center; 
+border-bottom:4px solid #ff8b38;
+
+}
+.prizing-secton .p-body h2{
+  font-size: 94px;
+  font-family:'Raleway', sans-serif ;
+ color: white;
+font-weight: 700;
+ }
+ .prizing-secton .p-body h2 span{
+  font-size:35px;
+  font-family:'Raleway', sans-serif ;
+ 
+}
+.prizing-secton .p-body p{
+  
+  font-size: 16px;
+  font-weight: 600;
+  color:#a2a3a6 ;
+  font-style: italic;
+}
+.prizing-secton .p-footer{
+text-align: center;
+}
+.prizing-secton  .p-footer ul{
+margin: 0;
+padding: 0;
+
+}
+.prizing-secton .p-footer ul li{
+list-style: none;
+padding: 12px;
+border-bottom: 1px solid #bebebe;
+text-transform: uppercase;
+color: #a4a5a8;
+font-style: italic;
+}
+.prizing-secton .p-footer ul li:nth-child(6){
+border-bottom: 0px !important;
+}
+.bnone{
+ border-bottom: 0px !important;
+
+}
+.pakg{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+   background-color: #ff8b38;
+   padding: 10px 0px;
+   text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+/* prizing section end */
+
+
+
+
+/* coustomer section start */
+.customer-section{
+  width: 100%;
+  padding: 80px 0px ;
+  background:white;
+  
+
+}
+.customer-section .title h2{
+  text-align: center;
+  font-size :36px; 
+  color: #212121;
+  font-weight: 400;
+  font-family:'Raleway', sans-serif; 
+  }
+  
+  .customer-section  .title .line{
+    width: 66px;
+    height: 2px;
+    background: #ff8b38;
+   
+   margin: 20px auto;
+  }
+  
+  .customer-section .title p{
+    font-family:'Raleway', sans-serif; 
+  font-size: 16px;
+  color: #a2a3a6;
+  font-weight: 400;
+  text-align: center;
+  }
+  .customer-section .text{
+    position: relative;
+    background: #f5f5f5;
+    padding: 15px 10px 30px 2px;
+    margin-bottom: 35px;
+    margin-right: 65px;
+}
+.customer-section .text p{ 
+  font-size: 14px;
+  color: #a2a3a6;
+  padding: 10px 20px 0px 15px;
+  margin: 0px;
+ padding-right: -9px;
+
+}
+
+.customer-section .arrow{
+ position: absolute;
+height: 35px;
+width: 35px;
+bottom: -18px;
+left: 15px;
+background: #f5f5f5;
+transform: rotate(45deg);
+
+}
+.customer-section .inner{}
+.customer-section .man{}
+.customer-section .into{}
+.customer-section .into h4{
+margin: 18px 0px 0px -10px;
+
+}
+.customer-section .into p{
+  color: #a4a5a8;
+
+}
+
+
+/* coustomer section end */
+
+/* design section start */
+.design-section{
+  width: 100%;
+  background: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 50vh;
+  padding: 38px 0px;
+
+}
+.design-section .title h2{
+  text-align: center;
+  font-size :36px; 
+  color:white;
+  font-weight: 400;
+  font-family:'Raleway', sans-serif; 
+  }
+  
+  .design-section  .title .line{
+    width: 66px;
+    height: 2px;
+    background: white;
+   
+   margin: 20px auto;
+  }
+  
+  .design-section .title p{
+    font-family:'Raleway', sans-serif; 
+  font-size: 16px;
+  color: #827a72;
+  font-weight: 600;
+  text-align: center;
+  }
+  .design-section .btn{
+    padding: 18px 20px;
+    margin-left: 550px;
+    margin-top: 25px;
+    background: (white, transparent);
+  }
+/* degien part end */
+
+
+
+/* contact part start */
+
+.contact-section{
+  width: 100%;
+ padding: 80px 0px ;
+ background: white;
+ 
+ }
+ .contact-section.title{
+ }
+ .contact-section .title h2{
+ text-align: center;
+ font-size :36px; 
+ color: #212121;
+ font-weight: 400;
+ font-family:'Raleway', sans-serif; 
+ }
+ 
+ .contact-section .title .line{
+   width: 66px;
+   height: 2px;
+   background: #ff8b38;
+   margin: 20px auto;
+ }
+ 
+ .contact-section .title p{
+font-family:'Raleway', sans-serif; 
+ font-size: 16px;
+ color: #a2a3a6;
+ font-weight: 400;
+ text-align: center;
+ }
+ .contact-section .form{
+  width: 100%;
+  margin: 96px 50px 0px 109px;
+  
+}
+.contact-section .form .form-lnner{
+  width: 440px;
+  float: left;
+  margin-right: 90px;
+  /* color: #bdbdbd ; */
+  
+}
+.contact-section .form .form-lnner input{
+  display: block;
+  padding: 18px 24px;
+  width: 475px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  /* color: #bdbdbd ; */
+ border: none;
+ border-bottom: 1px solid #bebebe;
+}
+.contact-section .form .form-lnner-b input{
+  display: block;
+  padding: 0px 18px 218px;
+  width: 475px;
+  margin-bottom: 30px;
+  font-size: 14px;
+ border: none;
+ border-bottom: 1px solid #bebebe;
+}
+.contact-section .btn{
+font-size: 14px;
+background: #ff8b38;
+border: 2px solid #ff8b38;
+ color:white;
+padding: 12px 16px 12px;
+margin-left: 569px;
+}
+
+/* contact part end */
+
+
+/*  footter part start */
+.footter-section{
+  background: #000000;
+  width: 100%;
+  height: 90px;
+}
+.footter-section .icon{
+  font-size: 24px;
+   color:#cccccc;
+    padding: 20px 389px 0px;
+  text-align: center;
+
+}
+.footter-section .icon i{
+padding: 10px;
+}
+.footter-section .text-footer{
+color: #404040;
+text-align: center;
+font-size: 14px;
+}
+.footter-section .icon {
+ 
+   padding: 0px;
+
+}
+
+  

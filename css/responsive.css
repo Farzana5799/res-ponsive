@@ -1,0 +1,213 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+     .banner-section .container h1 {
+        font-size: 40px;
+         text-align: center;
+         margin-top: 30px;
+    }
+    .banner-section .container h2 {
+        font-size: 17px;
+        padding: 0px 59px;
+    }
+    .banner-section .container p {
+        font-size: 16px;
+     padding-right: 32px;
+        text-align: center;
+    }
+    .banner-section .container .line {
+   
+      margin: 33px 126px;
+  }
+    .banner-section .btn-primary {
+      
+        padding: 15px 31px;
+    margin-top: 25px;
+        margin-left: 80px;
+    }
+    .text-center {
+      
+        margin-top: -337px;
+        margin-left: 38px;
+    }
+    .media-section .post-left .icon {
+        font-size: 18px;
+        padding: 0px;
+        margin-left: -19px;
+    }
+    .tab-part h3 {
+        margin-left: 0px;
+        padding: 8px;
+    }
+    .tab-part p {
+        margin-top: -13px;
+        margin-left: 11px;
+       font-size: 14px;
+        
+    }
+    .tab-part .btn {
+        margin-left: -49px;
+        padding: 10px 20px;
+    }
+    .tabs-part{
+ margin-top: 15px;
+
+    }
+    img, svg {
+       
+        width: 100%;
+    }
+    .sub-section .right .title h4 {
+        
+        margin-left: 71px;
+    }
+    .sub-section .right .title p {
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+    }
+    .sub-section .right .title .line {
+     
+        margin: 30px 111px;
+    }
+    .standard-section {
+        
+        padding-bottom: 70px;
+    }
+    .standard-section .left .title p {
+        margin-top: 20px;
+        
+        width: 300px;
+    }
+    .standard-section .left .title h4 {
+     margin-left: 45px;
+    }
+    .standard-section .left .title .line {
+     margin: 30px 125px;
+  }
+  .standard-section .left .title p {
+    margin-left: 48px;
+}
+
+    .group-section .icon-box {
+        
+        flex-direction: column !important;
+    }
+    .customer-section .man img {
+    
+      width: 30%;
+  }
+
+   
+
+  .customer-section .into {
+  
+    margin-left: 126px;
+    margin-top: -106px;
+}
+  .design-section .title p {
+   font-size: 22px;
+   
+}
+
+.design-section .btn {
+  padding: 14px 20px;
+  margin-left: 120px;
+  margin-top: 7px;
+ 
+}
+
+.contact-section .form .form-lnner {
+  width: 206px;
+  float: left;
+
+  margin-left: -99px;
+}
+.contact-section .form .form-lnner input {
+ 
+  padding: 18px 24px;
+  width: 323px;
+  margin-bottom: 13px; 
+}
+
+.contact-section .form .form-lnner-b input {
+  padding: 0px 18px 115px;
+  width: 303px;
+  margin-bottom: -45px;
+margin-left: -89px;
+}
+.contact-section .btn {
+
+  margin-left: 72px;
+  margin-top: 82px;
+}
+.footter-section .icon {
+  padding: 0px;
+}
+
+
+
+  }
+
+  
